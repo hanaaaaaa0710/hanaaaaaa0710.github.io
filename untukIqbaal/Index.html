@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Untukmu</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://files.dariku.my.id/dkd101/s.css" />
+    <script src="https://files.dariku.my.id/dkd101link/s.js"></script>
+  </head>
+  <body>
+    <div class="preload"></div>
+    <div class="bg"></div>
+    <div class="content animate__animated animate__bounceInDown">
+      <div class="card">
+        <div>
+          <h3>Ada pesan buat kamu</h3>
+        </div>
+        <img class="surat" src="https://dekatutorial.github.io/spesial_mail.png" alt="MAIL" />
+        <p>Tekan untuk membuka</p>
+      </div>
+    </div>
+    <div class="content2">
+      <div class="paper animate__animated animate__bounceIn" id="content2">
+        <div class="paper-content">
+          <textarea oncontextmenu="return false" class="pesan" disabled></textarea>
+        </div>
+      </div>
+      <div class="wa">
+        <button>Kirim Pesan</button>
+      </div>
+    </div>
+    <script>
+      // Untuk ganti musik, ganti link didalam kutip dengan nama file musik yang diupload
+      var musik = "Geisha - Jika Bukan Karenamu (Official Lyric Video).m4a";
+
+      // Untuk ganti background, ganti link didalam kutip dengan nama file background yang diupload
+      var background = "https://files.dariku.my.id/dkd101/background.webp";
+
+      // Ganti ucapan didalam tanda kutip, untuk membuat enter gunakan tanda #
+      var ucapanSurat = "Untuk Iqbaal, yang pernah aku sakiti tanpa niat, yang tetap memilih untuk tidak pergi walau sempat patah karena aku.#Maaf, karena dulu aku pernah jadi versi diriku yang belum mengerti kamu sepenuhnya. Aku tahu ada luka yang sempat aku tinggalkan, bahkan mungkin masih terasa sesekali saat kamu diam, atau saat kamu berpura-pura lupa.#Tapi aku mau bilang terima kasih, karena kamu gak pernah benar-benar berubah jadi asing. Kamu gak ninggalin aku waktu aku gagal jadi orang yang kamu percaya.
+Kamu bahkan tetap jadi tempat paling tenang yang bisa aku datangi saat aku ngerasa dunia gak berpihak.#Aku gak tahu gimana caramu bisa sekuat itu,
+tapi aku lihat kamu belajar, pelan-pelan menyembuhkan yang pernah aku retakkan.
+Dan aku bangga, Iqbaal.
+Aku bangga sama kamu, sama hatimu yang sabar, sama semua langkah yang kamu ambil buat jadi lebih baik dari kemarin.#Kalau suatu saat nanti aku gak bisa ada di samping kamu seperti sekarang,
+aku cuma mau kamu ingat satu hal:
+Aku pernah sangat menghargai kehadiranmu.
+Aku pernah diam-diam berdoa agar kamu tetap baik, bahkan tanpa aku.#Dan kalau kamu ragu,
+ya, kamu pantas dapat semua cinta dan ketenangan itu.##— seseorang yang belajar dari kesalahannya.";
+
+      // Masukkan link didalam kutip
+      var link = "";
+
+      // Kode dibawah ini jangan diubah/dihapus
+      DekaTutorial(musik, background, ucapanSurat, link);
+    </script>
+  </body>
+</html>
